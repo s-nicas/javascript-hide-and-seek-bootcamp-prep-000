@@ -14,13 +14,13 @@ function increaseRankBy(n){
         rankedLists[i].innerHTML = parseInt(i+ n)
       }
 }      
-
+ debugger;
 function deepestChild(){
   var results = document.getElementById('grand-node').querySelectorAll('div');
    
   
    return Object.values(results).length
     
-  debugger;
+ 
   
 }
