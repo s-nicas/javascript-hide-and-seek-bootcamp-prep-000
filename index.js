@@ -19,7 +19,8 @@ function deepestChild(){
   var results = document.getElementById('grand-node').querySelectorAll('div');
    
   
-   return Object.values(results)
+   var number = Object.values(results).length;
+   return results[number];
     
  
   
